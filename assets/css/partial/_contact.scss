@@ -1,0 +1,38 @@
+.contact-section {
+  background-image: url("../imgs/p2.jpg");
+  height: 50rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .contact-section__header {
+    padding-top: 8rem;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    font-size: 36px;
+  }
+  form {
+    // padding-top: 10rem;
+    width: 40%;
+    margin: 10rem auto;
+    align-items: center;
+    text-align: center;
+    border: solid rgb(100, 98, 98) 2px;
+  }
+  input {
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 90%;
+  }
+  .contact-section__form__item_comment {
+    height: 8rem;
+  }
+  button {
+    right: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 8rem;
+    margin-right: -21rem;
+  }
+  margin-bottom: 0;
+}

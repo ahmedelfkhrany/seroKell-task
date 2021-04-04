@@ -1,0 +1,33 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+  // position: fixed;
+  background-color: var(--main-color);
+  width: 100%;
+  .hamburger {
+    border: 0;
+    font-size: 2rem;
+    background-color: transparent;
+    display: none;
+  }
+  .navbar__logo {
+    width: 30%;
+    margin-left: 10%;
+  }
+  .navbar__items {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    li {
+      list-style: none;
+      padding: 1rem;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

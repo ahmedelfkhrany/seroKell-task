@@ -1,0 +1,23 @@
+.title-section {
+  background-image: url("../imgs/head.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7));
+  height: 60rem;
+  .container {
+    .title-section__content {
+      display: block;
+      margin: auto;
+      align-items: center;
+      text-align: center;
+      padding: 30rem;
+      h1 {
+        font-size: 72px;
+        margin-bottom: 2rem;
+      }
+      button {
+        padding: 1rem;
+      }
+    }
+  }
+}
